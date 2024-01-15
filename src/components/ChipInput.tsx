@@ -93,6 +93,7 @@ const ChipInput: React.FC<ChipInputProps> = () => {
         // Remove item from selected items and add it back to the list
         setSelectedItems(selectedItems.filter((selectedItem) => selectedItem.id !== item.id));
         setSelectedItemsId(selectedItemsId.filter((selectedItemId) => selectedItemId !== item.id));
+        setHighlightedIndex(null);
     };
 
 
