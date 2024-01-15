@@ -1,4 +1,3 @@
-// ChipInput.tsx
 import React, { useState, useRef, ChangeEvent, KeyboardEvent } from 'react';
 import './chipInput.css';
 
@@ -95,7 +94,6 @@ const ChipInput: React.FC<ChipInputProps> = () => {
         setSelectedItemsId(selectedItemsId.filter((selectedItemId) => selectedItemId !== item.id));
         setHighlightedIndex(null);
     };
-
 
     return (
         <div className="chip-input-container">
