@@ -7,11 +7,7 @@ interface Item {
     email: string;
 }
 
-interface ChipInputProps {
-    items: Array<{ id: number, name: string, email: string }>;
-}
-
-const ChipInput: React.FC<ChipInputProps> = () => {
+const ChipInput: React.FC = () => {
     const items : Item[] = [
         {
           id: 1,
